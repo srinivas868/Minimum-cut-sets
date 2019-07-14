@@ -1,6 +1,7 @@
 import queue
 import machine_utilization
 
+
 class Node:
     def __init__(self, key, name=None, left=None, right=None):
         self.key = key
@@ -43,7 +44,6 @@ class Tree:
                 c_node = Node(c_node.key, c_node.name, l_node, r_node)
                 return self.replace_node(root, c_node)
 
-
     def construct_node(self, input):
 
         if input != '':
@@ -61,7 +61,6 @@ class Tree:
         root.right = self.replace_node(root.right, node)
         return root
 
-
     def find_node(self, root, current):
 
         if root is None:
@@ -77,6 +76,7 @@ class Tree:
 
 
 visited = []
+
 
 def print_dfs(root, path):
 

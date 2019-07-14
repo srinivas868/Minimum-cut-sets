@@ -1,13 +1,15 @@
 import copy
+import queue
+import machine_utilization
 
 
 class Node:
 
-    def __init__(self, key):
-        self.val = key
+    def __init__(self, val):
+        self.val = val
         self.leftChild = None
         self.rightChild = None
-        # self.root = root
+        self.key = None
 
     def get(self):
         return self.val
@@ -119,7 +121,6 @@ def merge_bdds(type, bdd_one, bdd_two):
         bdd_one = insert_bdd(bdd_one, bdd_two, 'right')
     else:
         bdd_one = multiply_bdds(bdd_one, bdd_two)
-
     return bdd_one
 
 
@@ -173,9 +174,15 @@ def reduce(root):
     return result
 
 
-def print_min_cut_set(root):
+def print_min_cut_set(root, path):
 
-    print("Start printing")
+    path = path + "-" + str(root.val)
+    if root.leftChild is not None and root.leftChild.val != '1':
+        print_min_cut_set(root.leftChild, path)
+    else:
+        print(path)
+    if root.rightChild and root.rightChild.val != '0':
+        print_min_cut_set(root.rightChild, "")
 
 
 def main():
@@ -186,11 +193,11 @@ def main():
     bdd4 = construct_bdds("a*e")
 
     merge_bdd = merge_bdds("*", bdd1, bdd2)
-    merge_bdd1 = merge_bdds("*", bdd3, merge_bdd)
+    result = merge_bdds("*", bdd3, merge_bdd)
 
-    reduced = reduce(merge_bdd2)
-
-    print_min_cut_set(reduced)
+    reduced = reduce(copy.copy(result))
+    print("Start printing")
+    print_min_cut_set(reduced, "")
 
     print('dd')
 
