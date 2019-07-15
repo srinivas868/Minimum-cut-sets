@@ -1,7 +1,7 @@
 import copy
 import queue
 import machine_utilization
-import time
+import datetime
 
 
 class Node:
@@ -174,7 +174,9 @@ def reduce(root):
         a_tree_pointer = a_tree_pointer.rightChild
     return result
 
+
 paths = []
+
 
 def print_min_cut_set(root, path):
 
@@ -183,7 +185,7 @@ def print_min_cut_set(root, path):
         print_min_cut_set(root.leftChild, path)
     else:
         if path not in paths:
-            print(path)
+            #print(path)
             paths.append(path)
     if root.rightChild and root.rightChild.val != '0':
         print_min_cut_set(root.rightChild, "")
@@ -191,35 +193,28 @@ def print_min_cut_set(root, path):
 
 def main():
     mem_before = machine_utilization.get_process_memory()
-    start = time.time()
-    #main_input = "(a+e)*b*(c+d)"
-    #main_input = "(a+b+c+d+e)*(g+h+j+k+l+m)*((p*q)n+o)"
-    main_input = "(a+b+c)*(d*e+f)*(g+h)(i+j+k)*(l*m+n)*(o+p)"
+    start = datetime.datetime.now()
+    main_input = "(a+b+c)*(d*e+f)*(g+h+i)*(k+l)"
     bdd1 = construct_bdds("a+b+c")
     bdd2 = construct_bdds("d*e")
     bdd3 = construct_bdds("f")
-    bdd4 = construct_bdds("g+h")
-    bdd5 = construct_bdds("i+j+k")
-    bdd6 = construct_bdds("l*m")
-    bdd7 = construct_bdds("n")
-    bdd8 = construct_bdds("o+p")
+    bdd4 = construct_bdds("g+h+i")
+    bdd5 = construct_bdds("k+l")
 
-    mult1 = merge_bdds("*", bdd2, bdd3)
-    mult2 = merge_bdds("*", bdd6, bdd7)
-    result = merge_bdds("*", mult2, bdd8)
-    result = merge_bdds("*", bdd5, copy.copy(result))
-    result = merge_bdds("*", bdd4, copy.copy(result))
-    result = merge_bdds("*", mult1, copy.copy(result))
+    result1 = merge_bdds("+", bdd2, bdd3)
+    result = merge_bdds("*", bdd4, bdd5)
+    result = merge_bdds("*", copy.copy(result1), copy.copy(result))
     result = merge_bdds("*", bdd1, copy.copy(result))
 
     reduced = reduce(copy.copy(result))
-    print("Start printing")
+    print("Minimum-cut-sets")
     print_min_cut_set(reduced, "")
+    print(paths)
     print()
     mem_after = machine_utilization.get_process_memory()
     print("memory consumed: ", (mem_after - mem_before) / 1024, "KB")
-    print("cpu percent:", machine_utilization.get_cpu_percent())
-    print("elapsed time:", machine_utilization.elapsed_since(start))
+    print("cpu consumed percent:", machine_utilization.get_cpu_percent())
+    print("time consumed:", machine_utilization.elapsed_since(start), "seconds")
 
 
 if __name__ == '__main__':

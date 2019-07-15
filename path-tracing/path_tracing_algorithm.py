@@ -49,7 +49,7 @@ def trace_all_min_paths(connection_matrix, matrix_count):
             for i in range(len(connection_matrix[row_number])):
                 if connection_matrix[row_number][i] != component and connection_matrix[row_number][i] != '1' \
                         and connection_matrix[row_number][i] != '0':
-                    if i < matrix_count:
+                    if i <= matrix_count:
                         status = 'True'
                     else:
                         status = 'False'
@@ -82,6 +82,13 @@ def retrieve_all_min_paths(path_data_map, matrix_count):
             print_identified_path(path_data, path_data_map)
 
 
+def print_incident_matrix():
+    print('Minimum-Cut-Sets after incident matrix')
+    with open("/Users/srinivassangishetty/PycharmProjects/Bujji/path-tracing/example_1.txt", "r") as ins:
+        for line in ins:
+            print(line.upper())
+
+
 def main():
     mem_before = machine_utilization.get_process_memory()
     start = time.time()
@@ -104,10 +111,7 @@ def main():
     retrieve_all_min_paths(path_data_map, matrix_count)
 
     print()
-    print('Minimum-Cut-Sets after incident matrix')
-    with open("/Users/srinivassangishetty/PycharmProjects/Bujji/path-tracing/example_1.txt", "r") as ins:
-        for line in ins:
-            print(line.upper())
+    print_incident_matrix()
     print()
     mem_after = machine_utilization.get_process_memory()
     print("memory consumed: ", (mem_after - mem_before) / 1024, "KB")

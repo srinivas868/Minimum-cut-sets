@@ -1,0 +1,64 @@
+ex1:
+
+main_input = "(a+b+c)*(d*e+f)*(g+h)"
+    bdd1 = construct_bdds("a+b+c")
+    bdd2 = construct_bdds("d*e")
+    bdd3 = construct_bdds("f")
+    bdd4 = construct_bdds("g+h")
+
+    result = merge_bdds("+", bdd2, bdd3)
+    result = merge_bdds("*", result, bdd4)
+    result = merge_bdds("*", bdd1, result)
+
+ex2:
+
+main_input = "(a+b+c)*(d*e+f)*(g+h+i)*(k+l)"
+    bdd1 = construct_bdds("a+b+c")
+    bdd2 = construct_bdds("d*e")
+    bdd3 = construct_bdds("f")
+    bdd4 = construct_bdds("g+h+i")
+    bdd5 = construct_bdds("k+l")
+
+    result1 = merge_bdds("+", bdd2, bdd3)
+    result = merge_bdds("*", bdd4, bdd5)
+    result = merge_bdds("*", copy.copy(result1), copy.copy(result))
+    result = merge_bdds("*", bdd1, copy.copy(result))
+
+ex3:
+
+main_input = "(a+b+c)*(d*e+f)*(g+h)*(i+j+k)*(l*m+n)*(o+p)"
+    bdd1 = construct_bdds("a+b+c")
+    bdd2 = construct_bdds("d*e")
+    bdd3 = construct_bdds("f")
+    bdd4 = construct_bdds("g+h")
+    bdd5 = construct_bdds("i+j+k")
+    bdd6 = construct_bdds("l*m")
+    bdd7 = construct_bdds("n")
+    bdd8 = construct_bdds("o+p")
+
+    mult1 = merge_bdds("+", bdd2, bdd3)
+    mult2 = merge_bdds("+", bdd6, bdd7)
+    result = merge_bdds("*", mult2, bdd8)
+    result = merge_bdds("*", bdd5, copy.copy(result))
+    result = merge_bdds("*", bdd4, copy.copy(result))
+    result = merge_bdds("*", mult1, copy.copy(result))
+    result = merge_bdds("*", bdd1, copy.copy(result))
+
+
+main_input = "(a+b+c)*(d*e+f)*(g+h)(i+j+k)*(l*m+n)*(o+p)"
+    bdd1 = construct_bdds("a+b+c")
+    bdd2 = construct_bdds("d*e")
+    bdd3 = construct_bdds("f")
+    bdd4 = construct_bdds("g+h")
+    bdd5 = construct_bdds("i+j+k")
+    bdd6 = construct_bdds("l*m")
+    bdd7 = construct_bdds("n")
+    bdd8 = construct_bdds("o+p")
+
+    mult1 = merge_bdds("*", bdd2, bdd3)
+    mult2 = merge_bdds("*", bdd6, bdd7)
+    result = merge_bdds("*", mult2, bdd8)
+    result = merge_bdds("*", bdd5, copy.copy(result))
+    result = merge_bdds("*", bdd4, copy.copy(result))
+    result = merge_bdds("*", mult1, copy.copy(result))
+    result = merge_bdds("*", bdd1, copy.copy(result))

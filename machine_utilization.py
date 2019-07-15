@@ -1,10 +1,11 @@
 import psutil
 import time
 import os
+import datetime
 
 
 def elapsed_since(start):
-    return time.strftime("%H:%M:%S", time.gmtime(time.time() - start))
+    return (datetime.datetime.now() - start).microseconds/1000000
 
 
 def get_process_memory():
