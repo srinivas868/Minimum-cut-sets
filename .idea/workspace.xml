@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5005599f-20f3-42c5-b3cc-0874ebf627f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fault-tree/f_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/example_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/example_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/incident-output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path-tracing/path_tracing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fault_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/fault-tree/fault_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fault_tree_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/fault-tree/fault_tree_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_fault_tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fault-tree/input_fault_tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fault-tree/fault_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/fault-tree/fault_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_path_tracing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_path_tracing_ex2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_path_tracing_ex3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_path_tracing_ex4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/path-tracing/input_path_tracing_ex4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_utilization.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_utilization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path_tracing_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +27,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Bujji$fault_tree_dfs.coverage" NAME="fault_tree_dfs Coverage Results" MODIFIED="1562886579156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bujji$path_tracing_algorithm.coverage" NAME="path_tracing_algorithm Coverage Results" MODIFIED="1563059302688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bujji$path_tracing_algorithm.coverage" NAME="path_tracing_algorithm Coverage Results" MODIFIED="1563156998423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bujji$path_tracing.coverage" NAME="path_tracing Coverage Results" MODIFIED="1563157434299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/path-tracing" />
     <SUITE FILE_PATH="coverage/Bujji$read_expressions.coverage" NAME="read_expressions Coverage Results" MODIFIED="1557839015141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bujji$fault_tree.coverage" NAME="fault_tree Coverage Results" MODIFIED="1563090433171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bujji$fault_tree.coverage" NAME="fault_tree Coverage Results" MODIFIED="1563158926064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/path_tracing_algorithm.py">
+        <entry file="file://$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="366">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -34,22 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machine_utilization.py">
+        <entry file="file://$PROJECT_DIR$/path-tracing/path_tracing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree_dfs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="261">
+              <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -58,19 +59,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_path_tracing_ex4.txt">
+        <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex4.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -79,10 +68,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_expressions.py">
+        <entry file="file://$PROJECT_DIR$/path-tracing/example_1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path-tracing/example_2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree_dfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path-tracing/incident-output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex7.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex8.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -105,7 +154,11 @@
       <find>strip</find>
       <find>dfs</find>
       <find>node_count</find>
+      <find>,</find>
     </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,6 +178,16 @@
         <option value="$PROJECT_DIR$/fault_tree_dfs.py" />
         <option value="$PROJECT_DIR$/fault-tree/node.py" />
         <option value="$PROJECT_DIR$/dfs_util.py" />
+        <option value="$PROJECT_DIR$/path-tracing/input_path_tracing_ex5.txt" />
+        <option value="$PROJECT_DIR$/path-tracing/incident-output.txt" />
+        <option value="$PROJECT_DIR$/machine_utilization.py" />
+        <option value="$PROJECT_DIR$/path-tracing/input_path_tracing_ex6.txt" />
+        <option value="$PROJECT_DIR$/path-tracing/input_path_tracing_ex7.txt" />
+        <option value="$PROJECT_DIR$/path-tracing/input_path_tracing_ex8.txt" />
+        <option value="$PROJECT_DIR$/path-tracing/path_tracing.py" />
+        <option value="$PROJECT_DIR$/path-tracing/example_2.txt" />
+        <option value="$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py" />
+        <option value="$PROJECT_DIR$/fault-tree/f_tree.py" />
         <option value="$PROJECT_DIR$/fault-tree/fault_tree.py" />
       </list>
     </option>
@@ -154,6 +217,11 @@
               <item name="Bujji" type="462c0819:PsiDirectoryNode" />
               <item name="fault-tree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bujji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bujji" type="462c0819:PsiDirectoryNode" />
+              <item name="path-tracing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,10 +237,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/path-tracing" />
       <recent name="$PROJECT_DIR$/fault-tree" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/path-tracing" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -233,6 +303,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="path_tracing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Bujji" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/path-tracing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path-tracing/path_tracing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="path_tracing_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Bujji" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +338,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path_tracing_algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,6 +372,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.fault_tree" />
+        <item itemvalue="Python.path_tracing" />
         <item itemvalue="Python.path_tracing_algorithm" />
         <item itemvalue="Python.fault_tree_dfs" />
         <item itemvalue="Python.read_expressions" />
@@ -299,12 +392,20 @@
       <workItem from="1554063394858" duration="10822000" />
       <workItem from="1556233719231" duration="1360000" />
       <workItem from="1557807256261" duration="36410000" />
-      <workItem from="1562783055147" duration="51179000" />
+      <workItem from="1562783055147" duration="69189000" />
     </task>
+    <task id="LOCAL-00001" summary="dfs code add">
+      <created>1563090769259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563090769259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99771000" />
+    <option name="totallyTimeSpent" value="117781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -313,18 +414,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29036143" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48192772" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.35180724" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32880434" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.32771084" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49928468" visible="true" weight="0.33373493" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.4985694" weight="0.3987952" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,6 +459,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dfs code add" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs code add" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -377,9 +482,14 @@
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/path_tracing_algorithm.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="90" />
+          <url>file://$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -436,51 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_path_tracing_ex2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_path_tracing_ex3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_path_tracing.txt">
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="true" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_path_tracing_ex4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/path_tracing_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_utilization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,16 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,12 +570,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree_dfs.py">
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_utilization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/input_path_tracing_ex6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/path_tracing_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/example_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/path_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fault-tree/f_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="191" column="30" lean-forward="true" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/incident-output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path-tracing/example_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fault-tree/fault_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

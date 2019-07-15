@@ -1,0 +1,12 @@
+cdeg
+cdeh
+adeg
+adeh
+bdeg
+bdeh
+cfg
+cfh
+afg
+afh
+bfg
+bfh
